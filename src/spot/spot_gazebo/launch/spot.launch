@@ -1,0 +1,10 @@
+<launch>
+  <!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <!-- more default parameters can be changed here -->
+  </include>
+
+	<!-- push robot_description to factory and spawn robot in gazebo -->
+	<node name="spot_spawn" pkg="spot_ros" type="spawn_model" output="screen" args="-sdf -param robot_description -model spot" />
+	 
+</launch>

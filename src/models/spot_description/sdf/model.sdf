@@ -1,0 +1,345 @@
+<?xml version='1.0'?>
+  <sdf version='1.4'>
+    <model name="spot">
+    <static>false</static>
+      <link name='body'>
+        <pose>0 0 0.05 0 0 0</pose>
+
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>.6 .2 .1</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>.6 .2 .1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+
+      <link name="front_lleg">
+        <pose>0.05 0.125 0.05 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>.4 .05 .05</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>.4 .05 .05</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+
+      <link name="front_lleg2">
+        <pose>0.05 0.125 0.05 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>.4 .05 .05</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>.4 .05 .05</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+
+      <link name="front_rleg">
+        <pose>0.05 -0.125 0.05 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>.4 .05 .05</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>.4 .05 .05</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+
+      <link name="front_rleg2">
+        <pose>0.05 -0.125 0.05 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>.4 .05 .05</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>.4 .05 .05</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+
+      <link name="back_lleg">
+        <pose>-0.45 0.125 0.05 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>.4 .05 .05</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>.4 .05 .05</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+
+      <link name="back_lleg2">
+        <pose>-0.45 0.125 0.05 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>.4 .05 .05</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>.4 .05 .05</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+
+      <link name="back_rleg">
+        <pose>-0.45 -0.125 0.05 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>.4 .05 .05</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>.4 .05 .05</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+
+      <link name="back_rleg2">
+        <pose>-0.45 -0.125 0.05 0 0 0</pose>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>.4 .05 .05</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>.4 .05 .05</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+
+      <link name="shoulder_fll">
+        <pose>0.25 0.125 0.05 0 0 1.5785</pose>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>.1 .04 .04</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>.1 .04 .04</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+
+      <link name="shoulder_frl">
+        <pose>0.25 -0.125 0.05 0 0 1.5785</pose>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>.1 .04 .04</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>.1 .04 .04</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+
+      <link name="shoulder_bll">
+        <pose>-0.25 0.1 0.05 0 0 1.5785</pose>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>.1 .04 .04</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>.1 .04 .04</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+
+      <link name="shoulder_brl">
+        <pose>-0.25 -0.1 0.05 0 0 1.5785</pose>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>.1 .04 .04</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>.1 .04 .04</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+<!------------------------------------------------------------------------->
+      <joint type="revolute" name="shoulder_fll">
+        <pose>-0.05 0 0 0 0 0</pose>
+        <child>shoulder_fll</child>
+        <parent>body</parent>
+        <axis>
+          <xyz>1 0 0</xyz>
+        </axis>
+      </joint>
+
+      <joint type="revolute" name="shoulder_frl">
+        <pose>0.05 0 0 0 0 0</pose>
+        <child>shoulder_frl</child>
+        <parent>body</parent>
+        <axis>
+          <xyz>1 0 0</xyz>
+        </axis>
+      </joint>
+
+      <joint type="revolute" name="shoulder_bll">
+        <pose>-0.05 0 0 0 0 0</pose>
+        <child>shoulder_bll</child>
+        <parent>body</parent>
+        <axis>
+          <xyz>1 0 0</xyz>
+        </axis>
+      </joint>
+
+      <joint type="revolute" name="shoulder_brl">
+        <pose>0.05 0 0 0 0 0</pose>
+        <child>shoulder_brl</child>
+        <parent>body</parent>
+        <axis>
+          <xyz>1 0 0</xyz>
+        </axis>
+      </joint>
+
+      <joint type="revolute" name="front_lleg_joint">
+        <pose>0.2 0 0 0 0 0</pose>
+        <child>front_lleg</child>
+        <parent>shoulder_fll</parent>
+        <axis>
+          <xyz>0 1 0</xyz>
+        </axis>
+      </joint>
+      <joint type="revolute" name="front_lleg_joint2">
+        <pose>-0.2 0 0 0 0 0</pose>
+        <child>front_lleg2</child>
+        <parent>front_lleg</parent>
+        <axis>
+          <xyz>0 1 0</xyz>
+        </axis>
+      </joint>
+      <joint type="revolute" name="front_rleg_joint">
+        <pose>0.2 0 0 0 0 0</pose>
+        <child>front_rleg</child>
+        <parent>shoulder_frl</parent>
+        <axis>
+          <xyz>0 1 0</xyz>
+        </axis>
+      </joint>
+      <joint type="revolute" name="front_rleg_joint2">
+        <pose>-0.2 0 0 0 0 0</pose>
+        <child>front_rleg2</child>
+        <parent>front_rleg</parent>
+        <axis>
+          <xyz>0 1 0</xyz>
+        </axis>
+      </joint>
+      <joint type="revolute" name="back_lleg_joint">
+        <pose>0.2 0 0 0 0 0</pose>
+        <child>back_lleg</child>
+        <parent>shoulder_bll</parent>
+        <axis>
+          <xyz>0 1 0</xyz>
+        </axis>
+      </joint>
+      <joint type="revolute" name="back_lleg_joint2">
+        <pose>-0.2 0 0 0 0 0</pose>
+        <child>back_lleg2</child>
+        <parent>back_lleg</parent>
+        <axis>
+          <xyz>0 1 0</xyz>
+        </axis>
+      </joint>
+      <joint type="revolute" name="back_rleg_joint">
+        <pose>0.2 0 0 0 0 0</pose>
+        <child>back_rleg</child>
+        <parent>shoulder_brl</parent>
+        <axis>
+          <xyz>0 1 0</xyz>
+        </axis>
+      </joint>
+      <joint type="revolute" name="back_rleg_joint2">
+        <pose>-0.2 0 0 0 0 0</pose>
+        <child>back_rleg2</child>
+        <parent>back_rleg</parent>
+        <axis>
+          <xyz>0 1 0</xyz>
+        </axis>
+      </joint>
+
+      <plugin name="force_joint" filename="libforce_joint.so"/>
+
+  </model>
+</sdf>
